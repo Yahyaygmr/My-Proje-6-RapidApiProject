@@ -10,7 +10,5 @@
             public string encodedSymbol { get; set; }
             public string symbol { get; set; }
         }
-
-
     }
 }
