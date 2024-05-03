@@ -21,15 +21,11 @@
             <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
                 <div class="booking-form">
                     <h3>Booking Your Hotel</h3>
-                    <form method="post" asp-action="HotelList">
-                        <div class="select-option">
-                            <label for="date-in">Destination:</label>
-                            <select asp-for="dest_id">
-                                @foreach (var item in ViewBag.locationList)
-                                {
-                                    <option value="@item.Value">@item.Text</option>
-                                }
-                            </select>
+                    <form method="post" asp-action="GetLocations">
+                       
+                        <div class="check-date">
+                            <label >Location:</label>
+                            <input type="text" class="input"  asp-for="LocationName">
                         </div>
                         <div class="check-date">
                             <label for="date-in">Check In:</label>
@@ -41,20 +37,6 @@
                             <input type="text" class="date-input" id="date-out" asp-for="departure_date">
                             <i class="icon_calendar"></i>
                         </div>
-                        @*  <div class="select-option">
-                        <label for="guest">Guests:</label>
-                        <select id="guest">
-                        <option value="">2 Adults</option>
-                        <option value="">3 Adults</option>
-                        </select>
-                        </div>
-                        <div class="select-option">
-                        <label for="room">Room:</label>
-                        <select id="room">
-                        <option value="">1 Room</option>
-                        <option value="">2 Room</option>
-                        </select>
-                        </div> *@
                         <button type="submit">Check Availability</button>
                     </form>
                 </div>
