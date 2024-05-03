@@ -14,7 +14,7 @@ Booking.com tarafından sağlanan api üzerinden verdiğimiz lokasyona göre ote
 ![Ekran Alıntısı](https://github.com/Yahyaygmr/My-Proje-6-RapidApiProject/assets/101245826/107454a0-6823-4e5b-a828-4f28134be885)
 
 - Otel Listesi
-![Ekran Alıntısaaaaı](https://github.com/Yahyaygmr/My-Proje-6-RapidApiProject/assets/101245826/41c9e286-b6a5-4215-8ceb-a535683bee70)
+![Ekran görüntüsü 2024-05-03 235940](https://github.com/Yahyaygmr/My-Proje-6-RapidApiProject/assets/101245826/13a96d7a-1815-4d57-83eb-853747adda99)
 
 - Otel Detay Sayfası
   
