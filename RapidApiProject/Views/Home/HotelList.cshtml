@@ -29,7 +29,7 @@
             {
                 <div class="col-lg-4 col-md-6">
                     <div class="room-item">
-                        <img src="@item.property.photoUrls[0]" style="max-width:100%;height:auto;" alt="">
+                        <img src="@item.property.photoUrls[0].Replace("square60","square720")" style="max-width:100%;height:auto;" alt="">
                         <div class="ri-text">
                             <h4>@item.property.name</h4>
                             <h3>@item.property.priceBreakdown.grossPrice.value €<span>/Pernight</span></h3>
