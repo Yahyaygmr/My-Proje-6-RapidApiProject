@@ -3,3 +3,4 @@
 *.js linguist-detectable=false
 *.scss linguist-detectable=false
 * text=auto
+*.html linguist-detectable=false
